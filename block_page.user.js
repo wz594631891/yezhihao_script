@@ -24,7 +24,7 @@
     for (var i = keywords.length - 1; i >= 0; i--) {
 
         if ( test.indexOf( keywords[i])!=-1) {
-            document.write("网页含有关键字,禁止访问")
+            document.write("网页含有关键字"+ keywords[i]+",禁止访问")
             break
         }
     }}
